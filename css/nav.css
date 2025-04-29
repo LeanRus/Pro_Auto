@@ -1,0 +1,67 @@
+.navbar {
+  position: absolute;
+  height: 100px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  background: #0E0E0E;
+  opacity: 0.85;
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 42px;
+  width: 108px;
+  height: 58px;
+  left: 424px;
+  top: 42px;
+  z-index: 2;
+
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_right {
+  position: absolute;
+  width: 132px;
+  height: 58px;
+  left: 268px;
+  top: 24px;
+  z-index: 2;
+}
+
+.banner {
+  position: absolute;
+  width: 1640px;
+  height: 720px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.button {
+  position: absolute;
+  width: 168px;
+  height: 40px;
+  left: 1049px;
+  top: 42px;
+  z-index: 2;
+}
